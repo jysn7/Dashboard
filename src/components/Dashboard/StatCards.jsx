@@ -53,6 +53,8 @@ const Card = ({title, value, pillText, trend, period}) => {
             {pillText}
         </span>
       </div>
+
+      <p className='text-xs text-stone-500'>{period}</p>
     </div>
   
 )}
