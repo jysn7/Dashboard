@@ -15,7 +15,7 @@ const TopBar = () => {
             </div>
 
             <button className='flex text-sm items-center gap-2 bg-stone-100
-            transition-colors hover:bg-green-100 hover:text-green-700 px-3 py-1.5 rounded'>
+            transition-colors hover:bg-pink-100 hover:text-pink-700 cursor-pointer px-3 py-1.5 rounded'>
                 <FiCalendar />
                 <span>Prev 6 months</span>
             </button>

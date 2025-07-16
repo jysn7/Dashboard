@@ -22,7 +22,7 @@ const Route = ({selected, Icon, title}) => {
                 ? "bg-white text-stone-950 shadow"
                 : "hover:bg-stone-200 bg-transparent text-stone-500 shadow-none"
         }`}>
-            <Icon className={selected ? "text-green-500" : ""}/>
+            <Icon className={selected ? "text-pink-500" : ""}/>
             <span>{title}</span>
         </button>
 )}

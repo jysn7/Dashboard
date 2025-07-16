@@ -39,7 +39,7 @@ const ControlMenu = ({open, setOpen}) => {
             <Command.List className='p-3'>
             <Command.Empty>
                 No results found for{" "}
-                <span className='text-green-500'>{value}</span>
+                <span className='text-pink-500'>{value}</span>
             </Command.Empty>
 
             <Command.Group heading="Team" className='text-sm mb-3 text-stone-400'>
